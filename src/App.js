@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +22,21 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
+
+import Navbar from "./Navbar";
+import Corpo from "./Corpo";
+import FundoMobile from "./FundoMobile";
+
+export default function App() {
+  return ( 
+  <div>  
+    <Navbar />
+
+    <Corpo />
+
+    <FundoMobile />
+  </div>
+  );
+}
+/*cada compononente da App precisa estar dentro de divs?*/
