@@ -1,24 +1,25 @@
-import Story from "../Story";
+import Story from "./Story";
 import Setinha from "./Setinha";
+import fotodoinsta from "./img/instagram_logo_thin_icon_171701.png"
 
 export default function Stories() {
     return (
       <div class="stories">
-              <Story />
+              <Story nome="9gag" foto={fotodoinsta}  />
   
-              <Story />
+              <Story nome="9gag" foto={fotodoinsta}/> 
 
-              <Story />
+              <Story nome="9gag" foto={fotodoinsta}/>
               
-              <Story />
+              <Story nome="9gag" foto={fotodoinsta}/>
 
-              <Story />
+              <Story nome="9gag" foto={fotodoinsta}/>
 
-              <Story />
+              <Story nome="9gag" foto={fotodoinsta}/>
 
-              <Story />
+              <Story nome="9gag" foto={fotodoinsta}/>
 
-              <Story />
+              <Story nome="9gag" foto={fotodoinsta}/>
               
               <Setinha />
       </div>

@@ -1,7 +1,7 @@
-export default function Conteudo() {
+export default function Conteudo({foto}) {
     return (
         <div class="conteudo">
-         <img src="assets/img/gato-telefone.svg" />
+         <img src={foto} />
         </div>
     );
   }

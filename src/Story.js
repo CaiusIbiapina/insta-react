@@ -1,13 +1,15 @@
-export default function Story() {
+export default function Story({nome, foto}) {
     return (
       <div class="story">
         <div class="imagem">
-                  <img src="assets/img/9gag.svg" />
+           <img src={foto} />               
         </div>
 
         <div class="usuario">
-                  9gag
+           {nome}
         </div>
       </div>
     );
   }
+
+  /*<img src="assets/img/9gag.svg" />*/
